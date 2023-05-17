@@ -1,0 +1,4 @@
+com.YourCompany.Material_collections
+1
+1.0
+name='com.epicgames.unreal.GameActivity.AppType' value=''
