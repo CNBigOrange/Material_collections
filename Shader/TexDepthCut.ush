@@ -1,0 +1,16 @@
+float3 RayStep = viewDir*-1;
+float4 inputTex = Texture2DSample(texObject,texObjectSampler,uv);
+
+/*深度切片*/
+for(int i=0;i<CutNum;i++){
+    if(inputTex.r>0.1&&inputTex.g>0.1&&inputTex.b>0.1)
+    {
+        return float3(i,0,0);//颜色随i值变化
+    }
+
+    uv+=RayStep*StepOffset;//每一层颜色之间的UV偏移
+
+    inputTex = Texture2DSample(texObject,texObjectSampler,uv.xy);
+}
+
+return inputTex;
