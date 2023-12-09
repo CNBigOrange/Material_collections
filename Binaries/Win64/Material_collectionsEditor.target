@@ -894,6 +894,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-MeshDescriptionOperations.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-MeshMergeUtilities.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3295,6 +3299,34 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngine.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngine.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngineEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngineEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngineRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor-HoudiniEngineRuntime.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		}
 	],
@@ -24385,6 +24417,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Material_collections.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HoudiniEngineForUnreal-Houdini19.5-Unreal5.00/HoudiniEngine.uplugin",
 			"Type": "UFS"
 		}
 	],
